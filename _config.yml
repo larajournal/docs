@@ -26,17 +26,22 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 #ga_tracking: UA-2709176-10
 #ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-collections:
-  lang:
-    permalink: "/lang/"
-    output: true
-  deploy:
-    permalink: "/deploy/"
-    output: true
+# External navigation links
+nav_external_links:
+  - title: LaraJournal on GitHub
+    url: https://github.com/gomzyakov/larajournal
 
-just_the_docs:
-  collections:
-    lang:
-      name: Other languages
-    deploy:
-      name: Deploy LaraJournal
+#collections:
+#  lang:
+#    permalink: "/lang/"
+#    output: true
+#  deploy:
+#    permalink: "/deploy/"
+#    output: true
+#
+#just_the_docs:
+#  collections:
+#    lang:
+#      name: Other languages
+#    deploy:
+#      name: Deploy LaraJournal
